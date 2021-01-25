@@ -16,5 +16,5 @@ while not at_goal():
                     move()
             if right_is_clear() and front_is_clear():
                 move()
-        if wall_in_front and wall_on_right():
+        if wall_in_front() and wall_on_right():
             turn_left()    
